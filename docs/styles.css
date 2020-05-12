@@ -1,0 +1,119 @@
+/*
+Color Theme:
+#141B41
+#306BAC
+#6F9CEB
+#98B9F2
+#C5D5EA
+*/
+
+/*
+Everything
+*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*
+Header
+*/
+header {
+  background-color: #6f9ceb;
+}
+
+header h1 {
+  text-align: center;
+  color: #141b41;
+  background-color: #306bac;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header h2 {
+  margin-top: 5px;
+  margin-left: 250px;
+  padding-bottom: 4.5px;
+  text-align: left;
+}
+
+nav {
+  background-color: #141b41;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+  box-sizing: border-box;
+  background-color: #6f9ceb;
+  margin-top: 10px;
+}
+
+nav a {
+  box-sizing: border-box;
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #6f9ceb;
+  color: #c5d5ea;
+}
+
+nav a.active {
+  box-sizing: border-box;
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #306bac;
+  color: #c5d5ea;
+}
+
+nav a:hover {
+  background-color: #306bac;
+}
+
+/*
+Body
+*/
+body {
+  background-color: #c5d5ea;
+  color: #306bac;
+}
+
+section {
+  margin: 30px;
+  margin-top: -10px;
+  padding: 10px;
+  background-color: #98b9f2;
+  box-shadow: 4px 5px 20px grey;
+}
+
+section h2 {
+  font-size: xx-large;
+}
+
+section h3 {
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+section:nth-child(1) {
+  margin-top: 30px;
+}
+
+section:last-child {
+  margin-bottom: 30px;
+}
+
+/*
+Footer
+*/
+footer {
+  text-align: center;
+  background-color: #141b41;
+  color: #c5d5ea;
+  padding: 10px;
+  bottom: 0px;
+  width: 100%;
+  position: static;
+}
