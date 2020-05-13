@@ -1,3 +1,160 @@
+/*
+Color Theme
+*/
+:root {
+  --dark-color: #3e000c;
+  --bg-color: #8b2635;
+  --bg-color-title: #14110f;
+  --text-color-title: #f7f7f2;
+  --fg-color: #2d2d2a;
+  --text-color: #e5dcc5;
+  --caption-color: #d6d6d4d2;
+}
+
+/*
+Everything
+*/
 * {
-  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*
+Header
+*/
+header {
+  background-color: var(--bg-color-title);
+  margin-top: -120px;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  width: 100%;
+  position: fixed;
+}
+
+header h1 {
+  text-align: center;
+  color: var(--text-color-title);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header h2 {
+  text-align: center;
+  text-decoration: overline;
+  margin-top: 0.25%;
+}
+
+header h3 {
+  text-align: center;
+  font-size: medium;
+}
+
+/*
+Body
+*/
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+section {
+  margin: 30px;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: var(--fg-color);
+  box-shadow: 6px 8px 20px var(--dark-color);
+}
+
+section h2 {
+  font-size: xx-large;
+}
+
+section h3 {
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+section:nth-child(1) {
+  margin-top: 130px;
+}
+
+section:last-child {
+  margin-bottom: 30px;
+}
+
+article {
+  font-size: larger;
+  margin-top: 3vh;
+}
+
+article p {
+  margin-top: 1%;
+  text-align: start;
+  font-size: large;
+  text-indent: 35px;
+}
+
+article li {
+  margin-top: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.img-wrap {
+  margin-right: 24%;
+  margin-top: -20%;
+}
+
+.img-wrap p {
+  margin-right: 10%;
+  margin-top: -26%;
+  text-align: start;
+  font-size: large;
+  text-indent: 35px;
+}
+
+.img-wrap img {
+  width: 25%;
+  height: auto;
+  margin-left: 103%;
+  margin-top: 20%;
+  border-radius: 10%;
+  box-shadow: 8px 8px 20px var(--bg-color-title);
+}
+
+.youtube {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  height: 45vh;
+  margin-top: 2%;
+  margin-bottom: 0.75%;
+  box-shadow: 5px 6px 15px var(--bg-color-title);
+}
+
+.caption {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+  color: var(--caption-color);
+}
+
+/*
+Footer
+*/
+footer {
+  text-align: center;
+  background-color: var(--dark-color);
+  color: var(--text-color);
+  padding: 12px;
+  padding-top: 7px;
+  bottom: 0px;
+  width: 100%;
+  position: static;
 }
