@@ -9,6 +9,7 @@ Color Theme
   --fg-color: #2d2d2a;
   --text-color: #e5dcc5;
   --caption-color: #d6d6d4d2;
+  --transparent: rgba(255, 255, 255, 0);
 }
 
 /*
@@ -103,24 +104,12 @@ article li {
   margin-right: 24px;
 }
 
-.img-wrap {
-  margin-right: 24%;
-  margin-top: -20%;
-}
-
-.img-wrap p {
-  margin-right: 10%;
-  margin-top: -26%;
-  text-align: start;
-  font-size: large;
-  text-indent: 35px;
-}
-
 .img-wrap img {
-  width: 25%;
-  height: auto;
-  margin-left: 103%;
-  margin-top: 20%;
+  margin: 6px;
+  width: 170px;
+  float: right;
+  margin-top: -40px;
+  margin-right: -3%;
   border-radius: 10%;
   box-shadow: 8px 8px 20px var(--bg-color-title);
 }
