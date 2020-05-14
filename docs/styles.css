@@ -86,26 +86,20 @@ section {
   background-color: var(--fg-color);
   box-shadow: 6px 8px 20px var(--dark-color);
   animation-name: sectionslide;
-  animation-duration: 5s;
+  animation-duration: 3.5s;
   animation-timing-function: ease;
   border-radius: 20px;
 }
 
 @keyframes sectionslide {
   0% {
-    top: 275px;
     opacity: 0%;
   }
-  28% {
-    top: 275px;
+  50% {
     opacity: 0%;
-  }
-  75% {
-    opacity: 100%;
   }
   100% {
-    position: sticky;
-    top: 0px;
+    opacity: 100%;
   }
 }
 
