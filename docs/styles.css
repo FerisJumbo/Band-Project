@@ -179,6 +179,32 @@ article li {
 }
 
 /*
+Blog Body
+*/
+
+.blog {
+  background-color: var(--text-color-title);
+  color: var(--bg-color-title);
+}
+
+.blog img {
+  margin: auto;
+  margin-top: -5%;
+  padding: auto;
+}
+
+.blog h3 {
+  text-decoration: none;
+  margin-left: 145px;
+}
+
+.blog p {
+  margin-left: 145px;
+  margin-top: -80px;
+  padding-bottom: 10px;
+}
+
+/*
 Footer
 */
 footer {
